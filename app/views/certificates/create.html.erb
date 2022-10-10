@@ -60,11 +60,9 @@ label{
     <div class="input">
         <label>Title</label>
             <select>
-                <option>Proficient in Web Fundamentals</option>
-                <option>Proficient in PHP Track</option>
-                <option>Proficient in Advanced PHP</option>
-                <option>Proficient in Advanced JS</option>
-                <option>Proficient in Backend Development</option>
+            <% @certificates.each do |certificate|%>
+                <option><%= certificate.title%></option>
+                <%end%>
             </select>
             </div>
                 <div class="input">
