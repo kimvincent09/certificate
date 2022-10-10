@@ -1,0 +1,86 @@
+<style>
+.img{
+    background-color: black;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+}
+.container{
+    margin: 10px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+button{
+    display: inline-block;
+}
+
+input[type=submit]{
+    display: flex;
+    align-self: right;
+    padding: 10px;
+    float: right;
+}
+select{
+    padding: 5px;
+}
+label{
+    display:block;
+}
+.item{
+    border: solid black 1px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.input{
+    display: grid;
+    grid-template-columns: 20% auto;
+    text-align: left;
+    margin: 10px;
+}
+.content{
+    margin-top: 50px;
+}
+.content>h1{
+    margin-left: 20px;
+}
+
+</style>
+<div class="img">
+    <img src="https://cdn.hackerhero.com/1.1/assets/images/global/hh_logo_beta.svg">
+</div>
+<div class="content">
+  <h1>Award Certificate</h1>
+<div class="container">
+
+<div class="item">
+    <h2> Form </h2>
+    <form method="post">
+    <div class="input">
+        <label>Title</label>
+            <select>
+                <option>Proficient in Web Fundamentals</option>
+                <option>Proficient in PHP Track</option>
+                <option>Proficient in Advanced PHP</option>
+                <option>Proficient in Advanced JS</option>
+                <option>Proficient in Backend Development</option>
+            </select>
+            </div>
+                <div class="input">
+      
+        <label> Awardee </label>
+            <select>
+                <option>Karen Igcasan</option>  
+            </select>
+    
+        </div>
+        <input type="submit" value="post">
+    </form>
+    </div>
+    <div class="item">
+    <h2> Awardees</h2>
+    <a href="#">mchoi</a>
+    </div>
+    </div>
+</div>
